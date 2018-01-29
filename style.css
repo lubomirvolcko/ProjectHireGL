@@ -1,0 +1,42 @@
+#body {
+    background-color: #f2f2f2;
+}
+
+#logo {
+    background-color: #d4e157;
+    margin-top: 150px;
+    height: 10vw;
+    text-align: center;
+}
+
+img {
+    height: 5vw;
+    width: 5vw;
+    margin: 2vw auto;
+}
+
+#form {
+    background-color: white;
+    text-align: center;
+}
+
+.formContent {
+    width: 15vw;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.textForm {
+    color: #a6a6a6;
+    font-size: 1vw;
+    margin: 0px auto;
+}
+
+hr {
+    margin-top: 2px;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #d4e157;
+}

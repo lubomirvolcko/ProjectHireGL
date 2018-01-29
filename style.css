@@ -39,4 +39,14 @@ hr {
 input {
     border: none;
     border-bottom: 2px solid #d4e157;
+    width: 100%;
+}
+
+#error {
+    width: 67%;
+}
+
+#button {
+    width: 33%;
+    margin-left: 60%;
 }

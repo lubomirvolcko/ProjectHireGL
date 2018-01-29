@@ -7,6 +7,8 @@
     margin-top: 150px;
     height: 10vw;
     text-align: center;
+    box-shadow: 1px 1px 1px grey;
+    
 }
 
 img {
@@ -18,35 +20,62 @@ img {
 #form {
     background-color: white;
     text-align: center;
+    box-shadow: 1px 1px 1px grey;
+    padding: 3%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-top: none;
 }
 
 .formContent {
-    width: 15vw;
+    width: 100%;
     margin: 10px auto;
     text-align: left;
 }
 
 .textForm {
     color: #a6a6a6;
-    font-size: 1vw;
+    font-size: 100%;
     margin: 0px auto;
+    
 }
 
-hr {
-    margin-top: 2px;
+#textLogin {
+    border-bottom: 0.5px solid #a6a6a6;
 }
 
-input {
+.input {
     border: none;
-    border-bottom: 2px solid #d4e157;
+    border-bottom: 3px solid #d4e157;
     width: 100%;
 }
 
-#error {
-    width: 67%;
+#button {
+    width: 100%;
+    height: 40px;
+    background-color: #d4e157;
+    border: none;
+    font-size: 90%;
+    font-weight: bold;    
 }
 
-#button {
-    width: 33%;
-    margin-left: 60%;
+#button:hover {
+    cursor: pointer;
+    background-color: #c7d926; 
+}
+
+#textError {
+    width: 100%;
+    color: red;
+    float: left;
+    text-align: left;
+    font-size: 80%;
+    font-weight: bold;
+    padding-top: 8%;
+}
+
+#tdButton {
+    width: 35%;
+    padding: 0%;
 }
